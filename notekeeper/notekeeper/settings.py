@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -136,4 +136,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 SUMMERNOTE_THEME = 'bs4'
 
-TIME_ZONE =  'Asia/Kolkata'
+TIME_ZONE = 'Asia/Kolkata'
