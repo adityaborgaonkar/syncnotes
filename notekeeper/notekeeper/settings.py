@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'notekeeper.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'qowquaon',
+        'USER': 'qowquaon',
+        'PASSWORD': 'eiqcQRK7so1bB8DxmB04LkHQPC_ddZu9',
+        'HOST': 'lallah.db.elephantsql.com',
+        'PORT': '5432',
     }
 }
 
